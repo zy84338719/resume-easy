@@ -4,12 +4,9 @@ on:
   push:
     branches:
       - main
-
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - uses: actions/checkout@v1
       - name: Set up Go 1.16
@@ -32,7 +29,7 @@ jobs:
           git config --local user.name "GitHub Action"
           git add .
           git commit -m "GitHub Action build docs" -a
-          tcb login --apiKeyId=${{secrets.apiKeyId}} --apiKey=${{secrets.apiKey}}
+          tcb login --apiKeyId=${{ secrets.apiKeyId }} --apiKey=${{ secrets.apiKey }}
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:

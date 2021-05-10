@@ -1,7 +1,7 @@
 {
   "title": "简历｜服务端张易 ",
-  "download_pdf": "https://resume.murphyyi.com/服务端张易.pdf",
-  "footer_link": "https://github.com/zy84338719/resume",
+  "download_pdf": "https://pan.murphyyi.com/person/张易服务端.pdf",
+  "footer_link": "https://github.com/zy84338719/resume-easy",
   "footer_name": "Github",
   "name": "张易",
   "work_job": "Golang后端工程师 ｜ 服务端开发工程师 ",
@@ -29,7 +29,8 @@
       "at": "积目服务端参与<a href=\"https://hitup.cn/\">积目</a>业务的后端开发",
       "working": [
         "负责增长留存召回业务服务后端",
-        "负责基础服务后端(短信、推送、短链等)"
+        "负责基础服务后端(短信、推送、短链等)",
+        "编写快速使用的Shell、Python脚本、Go二进制工具"
       ]
     },
     {
@@ -42,7 +43,7 @@
       "working": [
         "参与并主导北京车易拍项目管理工具的后端开发（spring cloud）",
         "参与开发会员中心与优惠券权益发放项目的后端研发（spring boot）",
-        "推进基于React（souche-muji）与spring-boot结合的前后端分离开发探索实践，在北京搜车网&车易拍技术落地",
+        "推进基于React（souche-muji）与spring-boot结合的前后端分离开发探索实践、技术落地",
         "车牛SAAS服务迁移，新零售买手项目（spring mvc）"
       ]
     },
@@ -113,6 +114,11 @@
           "addr": "http://github.com/zy84338719/upftp",
           "tag": "upftp",
           "mark": "快速开启服务器上某个文件夹ftp服务，方便远程下载"
+        },
+        {
+          "addr": "https://github.com/zy84338719/resume-easy",
+          "tag": "简历项目2.0",
+          "mark": "基于go template 模版以及Github 静态存储的简历项目"
         }
       ]
     },

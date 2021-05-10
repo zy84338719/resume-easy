@@ -14,7 +14,7 @@ jobs:
         with:
           go-version: 1.16
         id: go
-        run: go run main.go
+      - run: go run main.go
       - name: Node12 Env
         uses: actions/setup-node@v2
         with:

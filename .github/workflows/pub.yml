@@ -17,9 +17,9 @@ jobs:
         with:
           go-version: 1.16
         id: go
-        run: go run main.go
+      - run: go run main.go
       - name: Build
-        run: |
+      - run: |
           cd html
           yarn
           yarn build

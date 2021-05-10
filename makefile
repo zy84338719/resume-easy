@@ -6,6 +6,6 @@ dev:
 	cd html && yarn dev
 
 deploy:
-	tcb hosting delete -e ${envId}
+	tcb hosting delete -e ${envId} y
 	cd docs && tcb hosting deploy -e ${envId}
 	tcb hosting list -e ${envId}

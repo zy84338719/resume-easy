@@ -28,7 +28,7 @@ jobs:
       - name: Commit files
         run: |
           tcb login --apiKeyId=${{ secrets.apiKeyId }} --apiKey=${{ secrets.apiKey }}
-          tcb hosting delete -e ${secrets.envId}
+          tcb hosting delete -e ${secrets.envId} y
           cd docs && tcb hosting deploy -e ${secrets.envId}
           tcb hosting list -e ${secrets.envId}
           git config --local user.email "action@github.com"

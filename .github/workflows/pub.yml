@@ -25,12 +25,12 @@ jobs:
           yarn
           yarn build
           yarn global add @cloudbase/cli
-      - name: Commit files
-        run: |
           tcb login --apiKeyId=${{ secrets.apiKeyId }} --apiKey=${{ secrets.apiKey }}
           tcb hosting delete -e ${secrets.envId}
           cd docs && tcb hosting deploy -e ${secrets.envId}
           tcb hosting list -e ${secrets.envId}
+      - name: Commit files
+        run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add .

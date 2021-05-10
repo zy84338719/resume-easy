@@ -1,0 +1,137 @@
+{
+  "title": "简历｜服务端张易 ",
+  "download_pdf": "https://resume.murphyyi.com/服务端张易.pdf",
+  "footer_link": "https://github.com/zy84338719/resume",
+  "footer_name": "Github",
+  "name": "张易",
+  "work_job": "Golang后端工程师 ｜ 服务端开发工程师 ",
+  "sex": "男",
+  "brithday": "1995.01",
+  "school": "江苏科技大学",
+  "specialty": "计算机科学与技术",
+  "degree": "统招本科",
+  "finish": "2019.06",
+  "experience": 2,
+  "blog_url": "https://blog.murphyyi.com",
+  "blog_name": "墨菲易博客",
+  "git_address": "github.com",
+  "git_name": "Github",
+  "git_account": "zy84338719",
+  "email": "zhangyi@murphyyi.com",
+  "phone": "18600321498",
+  "work": [
+    {
+      "company": "映客直播·积目",
+      "start": "2020.06",
+      "end": "2021.04",
+      "url": "https://inke.com",
+      "favicon": "<img src=\"http://static.inke.cn/s/images/favicon.ico\" width=\"26px\" height=\"26px\">",
+      "at": "积目服务端参与<a href=\"https://hitup.cn/\">积目</a>业务的后端开发",
+      "working": [
+        "负责增长留存召回业务服务后端",
+        "负责基础服务后端(短信、推送、短链等)"
+      ]
+    },
+    {
+      "company": "大搜车(北京)｜车易拍",
+      "start": "2018.11",
+      "end": "2020.02",
+      "url": "https://www.dasouche.com",
+      "favicon": "<svg width=\"16px\" height=\"16px\" viewBox=\"0 0 16 16\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><title>Combined Shape</title><desc>Created with Sketch.</desc><defs></defs><g id=\"终稿\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\"><path d=\"M0,0 L16,0 L16,16 L0,16 L0,0 Z M3,3 L3,5 L2,5 L2,6 L3,6 L3,9 L2,9 L2,10 L3,10 L3,12 L2,12 L2,13 L5,13 L5,3 L3,3 Z M11.5,3 L11.5,4 L12,4 L12,5 L11.5,5 L11.5,6.00006427 L12,6 L12,7 L11,7 L11,3 L9,3 L9,7 L8,7 L8,6 L8.5,6.00006427 L8.5,5 L8,5 L8,4 L8.5,4 L8.5,3 L6,3 L6,8.00408575 L9,8.00408575 L9,8.49650021 L6,8.49650021 L6,9.62148816 L7.68724598,11.0004172 L6,11.5 L6,12.9913833 L10,11.9844046 L14,12.9913833 L14,11.5 L12.182582,11.0004172 L14,9.62148816 L14,8.49650021 L11,8.4928381 L11,8 L14,8.00408575 L14,3 L11.5,3 Z M8.36457299,10.007184 L11.635427,10.007184 L10,11.0501074 L8.36457299,10.007184 Z\" id=\"Combined-Shape\" fill=\"#FF571A\" fill-rule=\"nonzero\"></path></g></svg>",
+      "at": "北京搜车网&北京车易拍参与<a href=\"https://www.cheyipai.com/aboutUs/companyProfile\">车牛SasS&营销组</a>的服务端开发",
+      "working": [
+        "参与并主导北京车易拍项目管理工具的后端开发（spring cloud）",
+        "参与开发会员中心与优惠券权益发放项目的后端研发（spring boot）",
+        "推进基于React（souche-muji）与spring-boot结合的前后端分离开发探索实践，在北京搜车网&车易拍技术落地",
+        "车牛SAAS服务迁移，新零售买手项目（spring mvc）"
+      ]
+    },
+    {
+      "company": "转转精神",
+      "start": "2018.07",
+      "end": "2018.09",
+      "url": "https://www.zhuanzhuan.com",
+      "favicon": "<img src=\"http://www.zhuanzhuan.com/favicon.ico\" width=\"26px\" height=\"26px\"/>",
+      "at": "风控技术部团队参与转转风控的后端开发",
+      "working": [
+        "参与风控后台评估管理系统0-1的搭建"
+      ]
+    }
+  ],
+  "left_ability": [
+    {
+      "ability_name": "后端",
+      "ability_recommend": [
+        "掌握GPM并发模型",
+        "掌握Golang基本语法与标准库",
+        "会使用常用设计模式应用到项目中",
+        "会用Java Spring Boot/Cloud"
+      ]
+    },
+    {
+      "ability_name": "数据库&缓存技术",
+      "ability_recommend": [
+        "掌握Redis基本概念、用法，项目中多处使用",
+        "掌握Mysql基本用法、懂得一些常见的Mysql优化手段"
+      ]
+    },
+    {
+      "ability_name": "中间件",
+      "ability_recommend": [
+        "会用kafka、了解counsl",
+        "了解zk、etcd",
+        "使用过dubbo(java)"
+      ]
+    }
+  ],
+  "right_ability": [
+    {
+      "ability_name": "Linux 基础",
+      "ability_recommend": [
+        "了解的5种IO模型",
+        "了解docker，有面向docker编程经验，会用docker、docker-compose",
+        "会用python3、shell基础，处理一些常见的linux问题"
+      ]
+    },
+    {
+      "ability_name": "Web",
+      "ability_recommend": [
+        "了解JS基本语法与知识，会用 TypeScript",
+        "会用React，Vue",
+        "了解CSS、SCSS",
+        "开发一些简单的demo"
+      ]
+    }
+  ],
+  "project": [
+    {
+      "project_type": "Golang",
+      "project_url": "https://golang.org",
+      "icon": "<svg t=\"1609061025056\" class=\"icon\" viewBox=\"0 0 1024 1024\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" p-id=\"14977\" width=\"128\" height=\"128\"><path d=\"M512 0a512 512 0 1 1 0 1024A512 512 0 0 1 512 0z m-48.896 369.28a190.08 190.08 0 0 0-119.68 73.856 167.488 167.488 0 0 0-36.096 125.184c3.392 37.76 22.72 72.32 53.12 94.912a152.32 152.32 0 0 0 114.88 28.16A178.368 178.368 0 0 0 598.144 618.88c7.04-9.344 13.056-19.392 18.048-30.08 6.848 26.24 21.376 49.792 41.728 67.584 29.696 24.96 67.52 38.4 106.368 37.504 11.136-1.344 22.592-1.6 33.984-3.776a195.648 195.648 0 0 0 102.656-54.72 165.632 165.632 0 0 0 47.808-144.896 132.928 132.928 0 0 0-60.352-95.168 159.488 159.488 0 0 0-121.728-21.76 179.968 179.968 0 0 0-119.616 71.232c-12.864 16.64-22.784 35.456-29.248 55.552H480.128a11.456 11.456 0 0 0-10.624 6.912c-5.888 11.136-16.256 33.216-21.824 46.528-2.944 7.424 0 12.8 8.256 12.8H538.24c-4.224 6.08-7.68 11.136-11.648 15.872-17.664 21.376-45.184 32-72.576 28.16a67.2 67.2 0 0 1-57.728-66.944 91.456 91.456 0 0 1 43.648-81.344 74.432 74.432 0 0 1 77.312-6.4c7.872 3.84 14.72 9.408 20.224 16.256 5.312 6.4 5.824 6.08 12.16 4.224l71.808-18.56c5.12-1.344 6.912-3.52 4.288-7.488a132.928 132.928 0 0 0-49.472-60.096 147.008 147.008 0 0 0-113.28-20.992z m369.088 91.392a70.4 70.4 0 0 1 30.976 47.552c0.896 4.672 1.28 9.408 1.28 14.08a93.568 93.568 0 0 1-54.208 80.64c-21.568 11.52-47.232 12.416-69.632 2.56a70.976 70.976 0 0 1-39.36-79.68 93.824 93.824 0 0 1 75.008-74.432 70.4 70.4 0 0 1 55.936 9.28zM272.512 528.192H187.2a6.4 6.4 0 0 0-4.288 2.368l-5.824 10.88v2.432h95.68a3.456 3.456 0 0 0 2.944-2.944V530.56a2.688 2.688 0 0 0-3.2-2.368z m9.6-39.36H87.168a6.656 6.656 0 0 0-4.8 2.112l-9.28 11.52v2.048h201.728a3.712 3.712 0 0 0 4.032-2.624l3.456-10.112a2.112 2.112 0 0 0-0.32-2.944z m21.76-39.616l-151.04 0.32a5.824 5.824 0 0 0-4.736 2.112l-9.024 11.712v2.112H293.76a6.912 6.912 0 0 0 4.288-2.432l7.168-11.136c0-1.28 0-2.688-1.344-2.688z\" fill=\"#40A9FF\" p-id=\"14978\"></path></svg>",
+      "introduce": [
+        {
+          "addr": "http://github.com/zy84338719/upftp",
+          "tag": "upftp",
+          "mark": "快速开启服务器上某个文件夹ftp服务，方便远程下载"
+        }
+      ]
+    },
+    {
+      "project_type": "Vue",
+      "project_url": "https://vuejs.org/",
+      "icon": "<img src=\"https://vuejs.org/images/logo.png\" width=\"26px\" height=\"26px\"/>",
+      "introduce": [
+        {
+          "addr": "https://github.com/yi-nology/ework",
+          "tag": "ework",
+          "mark": "ework是一个简便的网址导航站,省去到处找服务地址烦恼......"
+        },
+        {
+          "addr": "https://github.com/yi-nology/resume",
+          "tag": "简历项目1.0",
+          "mark": "随时修改简历，帮助你快速生成网页简历"
+        }
+      ]
+    }
+  ]
+}

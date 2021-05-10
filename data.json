@@ -119,6 +119,11 @@
           "addr": "https://github.com/zy84338719/resume-easy",
           "tag": "简历项目2.0",
           "mark": "基于go template 模版以及Github 静态存储的简历项目"
+        },
+        {
+          "addr": "https://www.yuque.com/docs/share/a94f3298-7517-4ead-ab39-e8051473d851",
+          "tag": "Mac整蛊小程序",
+          "mark": "基于go 调用Mac系统音量以及一些相关的api实现到点吃饭"
         }
       ]
     },

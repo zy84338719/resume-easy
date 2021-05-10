@@ -5,18 +5,23 @@ on:
     branches:
       - main
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
+      - name: Checkout main 🛎️
+        uses: actions/checkout@v2
+
       - name: Set up Go 1.16
         uses: actions/setup-go@v1
         with:
           go-version: 1.16
         id: go
         run: go run main.go
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v1
+
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '12'
+
       - name: Build
         run: |
           cd html

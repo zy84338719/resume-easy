@@ -9,15 +9,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
-        with:
-          node-version: '12'
       - name: Set up Go 1.16
         uses: actions/setup-go@v1
         with:
           go-version: 1.16
         id: go
       - run: go run main.go
+      - name: Node12 Env
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '12'
       - name: Build
       - run: |
           cd html
@@ -26,11 +27,14 @@ jobs:
           yarn global add @cloudbase/cli
       - name: Commit files
         run: |
+          tcb login --apiKeyId=${{ secrets.apiKeyId }} --apiKey=${{ secrets.apiKey }}
+          tcb hosting delete -e ${secrets.envId}
+          cd docs && tcb hosting deploy -e ${secrets.envId}
+          tcb hosting list -e ${secrets.envId}
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add .
           git commit -m "GitHub Action build docs" -a
-          tcb login --apiKeyId=${{ secrets.apiKeyId }} --apiKey=${{ secrets.apiKey }}
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:

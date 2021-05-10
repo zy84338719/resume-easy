@@ -89,9 +89,9 @@
     {
       "ability_name": "Linux 基础",
       "ability_recommend": [
-        "了解的5种IO模型",
         "了解docker，有面向docker编程经验，会用docker、docker-compose",
-        "会用python3、shell基础，处理一些常见的linux问题"
+        "会用python3、shell基础，处理一些常见的linux问题",
+        "了解的5种IO模型"
       ]
     },
     {
@@ -130,12 +130,12 @@
         {
           "addr": "https://github.com/yi-nology/ework",
           "tag": "ework",
-          "mark": "ework是一个简便的网址导航站,省去到处找服务地址烦恼......"
+          "mark": "是一个简便的网址导航站,省去到处找服务地址烦恼......"
         },
         {
           "addr": "https://github.com/yi-nology/resume",
-          "tag": "简历项目1.0",
-          "mark": "随时修改简历，帮助你快速生成网页简历"
+          "tag": "网页简历1.0",
+          "mark": "Vue+Beego 随时修改简历,生成<a href=\"https://yi-nology.github.io/resume/#/preview/w\">网页简历示例</a>"
         }
       ]
     }

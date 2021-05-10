@@ -7,6 +7,8 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    env:
+      envId: ${{ secrets.ENVID }}
     steps:
       - uses: actions/checkout@v2
       - name: Set up Go 1.16
@@ -24,13 +26,9 @@ jobs:
           cd html
           yarn
           yarn build
-          yarn global add @cloudbase/cli
+          npm i -g @cloudbase/cli && tcb login --apiKeyId=${{ secrets.apiKeyId }} --apiKey=${{ secrets.apiKey }} && tcb hosting delete -e ${secrets.envId} y && cd docs && tcb hosting deploy -e ${secrets.envId} && tcb hosting list -e ${secrets.envId}
       - name: Commit files
         run: |
-          tcb login --apiKeyId=${{ secrets.apiKeyId }} --apiKey=${{ secrets.apiKey }}
-          tcb hosting delete -e ${secrets.envId} y
-          cd docs && tcb hosting deploy -e ${secrets.envId}
-          tcb hosting list -e ${secrets.envId}
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add .

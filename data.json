@@ -20,15 +20,15 @@
   "email": "zhangyi@murphyyi.com",
   "phone": "18600321498",
   "work": [
-     {
+    {
       "company": "滴滴出行",
       "start": "2021.06",
       "end": "至今",
-      "url": "https://www.didiglobal.com/",
+      "url": "https://www.didiglobal.com",
       "favicon": "<img src=\"https://website.didiglobal.com/DDlogo.ico\" width=\"26px\" height=\"26px\">",
-      "at": "滴滴出行网约车服务端参与<a href=\"https://hxz.didichuxing.com/\">花小猪</a>业务的后端开发",
+      "at": "滴滴出行网约车服务端参与<a href=\"https://hxz.didichuxing.com\">花小猪</a>业务的后端开发",
       "working": [
-        "搬砖中",
+        "搬砖中"
       ]
     },
     {

@@ -11,7 +11,7 @@
   "specialty": "计算机科学与技术",
   "degree": "统招本科",
   "finish": "2019.06",
-  "experience": 2,
+  "experience": 3,
   "blog_url": "https://blog.murphyyi.com",
   "blog_name": "墨菲易博客",
   "git_address": "github.com",
@@ -23,12 +23,14 @@
     {
       "company": "滴滴出行",
       "start": "2021.06",
-      "end": "至今",
+      "end": "2022.04",
       "url": "https://www.didiglobal.com",
       "favicon": "<img src=\"https://website.didiglobal.com/DDlogo.ico\" width=\"26px\" height=\"26px\">",
       "at": "滴滴出行网约车服务端参与<a href=\"https://hxz.didichuxing.com\">花小猪</a>业务的后端开发",
       "working": [
-        "搬砖中"
+        "负责花小猪拦截迁移",
+        "费用工作台底层日志清洗工作",
+        "负责机器人平台开发"
       ]
     },
     {
@@ -45,7 +47,7 @@
       ]
     },
     {
-      "company": "大搜车(北京)｜车易拍",
+      "company": "大搜车(北京)·车易拍",
       "start": "2018.11",
       "end": "2020.02",
       "url": "https://www.dasouche.com",
@@ -56,17 +58,6 @@
         "参与开发会员中心与优惠券权益发放项目的后端研发（spring boot）",
         "推进基于React（souche-muji）与spring-boot结合的前后端分离开发探索实践、技术落地",
         "车牛SAAS服务迁移，新零售买手项目（spring mvc）"
-      ]
-    },
-    {
-      "company": "转转精神",
-      "start": "2018.07",
-      "end": "2018.09",
-      "url": "https://www.zhuanzhuan.com",
-      "favicon": "<img src=\"http://www.zhuanzhuan.com/favicon.ico\" width=\"26px\" height=\"26px\"/>",
-      "at": "风控技术部团队参与转转风控的后端开发",
-      "working": [
-        "参与风控后台评估管理系统0-1的搭建"
       ]
     }
   ],

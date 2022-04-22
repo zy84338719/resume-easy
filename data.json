@@ -82,7 +82,7 @@
       "ability_name": "中间件",
       "ability_recommend": [
         "会用kafka、了解counsl",
-        "了解zk、etcd",
+        "了解zk",
         "使用过dubbo(java)"
       ]
     }
@@ -136,6 +136,11 @@
           "addr": "https://www.yuque.com/docs/share/a94f3298-7517-4ead-ab39-e8051473d851",
           "tag": "Mac整蛊小程序",
           "mark": "基于go 调用Mac系统音量以及一些相关的api实现到点吃饭"
+        },
+         {
+          "addr": "https://juejin.cn/post/7051170770491441182",
+          "tag": "你女朋友都能理解的 io复用模型",
+          "mark": " io复用模型 大白话"
         }
       ]
     },

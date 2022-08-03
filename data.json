@@ -1,6 +1,6 @@
 {
-  "title": "简历｜服务端张易 ",
-  "download_pdf": "https://pan.murphyyi.com/person/2%E5%B9%B4_%E5%BC%A0%E6%98%93_%E6%9C%AC%E7%A7%91_Go%E6%9C%8D%E5%8A%A1%E7%AB%AF%EF%BD%9C%E6%9C%8D%E5%8A%A1%E5%90%8E%E7%AB%AF%EF%BD%9C%E5%85%A8%E6%A0%88.pdf",
+  "title": "简历｜张易 ",
+  "download_pdf": "https://pan.murphyyi.com/暂无",
   "footer_link": "https://github.com/zy84338719/resume-easy",
   "footer_name": "Github",
   "name": "张易",
@@ -12,23 +12,36 @@
   "degree": "统招本科",
   "finish": "2019.06",
   "experience": 3,
-  "blog_url": "https://www.yuque.com/murphyyi",
-  "blog_name": "墨菲易博客",
+  "blog_url": "https://i.murphyyi.com",
+  "blog_name": "主页（博客）",
   "git_address": "github.com",
   "git_name": "Github",
   "git_account": "zy84338719",
   "email": "zhangyi@murphyyi.com",
-  "phone": "18600321498",
+  "phone": "186*****98",
   "work": [
+     {
+      "company": "集度汽车（百度智能汽车品牌)",
+      "start": "2021.06",
+      "end": "2022.04",
+      "url": "https://www.jidu.cn/",
+      "favicon": "<img src=\"https://static.jiduapp.cn/optimus/user-upload/375c40c366.png\" width=\"26px\" height=\"26px\">",
+      "at": "在集度Product Engineering团队，负责车控业务的后端开发",
+      "working": [
+        "努力搬砖中",
+        "请稍后",
+        "......"
+      ]
+    },
     {
       "company": "滴滴出行",
       "start": "2021.06",
       "end": "2022.04",
       "url": "https://www.didiglobal.com",
       "favicon": "<img src=\"https://website.didiglobal.com/DDlogo.ico\" width=\"26px\" height=\"26px\">",
-      "at": "滴滴出行网约车服务端参与<a href=\"https://hxz.didichuxing.com\">花小猪</a>业务的后端开发",
+      "at": "滴滴出行网约车服务端参与<a href=\"https://hxz.didichuxing.com\">花小猪</a> & <a href=\"https://www.didiglobal.com\"></a>业务的后端开发",
       "working": [
-        "负责花小猪拦截迁移",
+        "负责花小猪拦截迁移&拦截能力建设",
         "费用工作台底层日志清洗工作",
         "负责问答机器人平台研发"
       ]

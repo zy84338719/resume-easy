@@ -25,7 +25,8 @@ jobs:
         run: |
           cd html
           yarn
-          yarn build && npm i -g @cloudbase/cli && tcb login --apiKeyId=${{ secrets.apiKeyId }} --apiKey=${{ secrets.apiKey }} && tcb hosting delete -e ${{secrets.envId}} y && cd ../docs && tcb hosting deploy -e ${{secrets.envId}} && tcb hosting list -e ${{secrets.envId}}
+          yarn build
+#          && npm i -g @cloudbase/cli && tcb login --apiKeyId=${{ secrets.apiKeyId }} --apiKey=${{ secrets.apiKey }} && tcb hosting delete -e ${{secrets.envId}} y && cd ../docs && tcb hosting deploy -e ${{secrets.envId}} && tcb hosting list -e ${{secrets.envId}}
       - name: Commit files
         run: |
           git config --local user.email "action@github.com"

@@ -6,7 +6,7 @@
   "name": "张易",
   "work_job": "Golang后端工程师 ｜ 服务端开发工程师 ",
   "sex": "男",
-  "brithday": "",
+  "brithday": "95.01",
   "school": "江苏科技大学",
   "specialty": "计算机科学与技术",
   "degree": "统招本科",
@@ -28,8 +28,9 @@
       "favicon": "<img src=\"https://static.jiduapp.cn/optimus/user-upload/375c40c366.png\" width=\"26px\" height=\"26px\">",
       "at": "在集度Product Engineering团队，负责车控业务的后端开发",
       "working": [
-        "努力搬砖中",
-        "请稍后",
+        "主要负责人车关系",
+        "主要负责车辆模式",
+        "日常打砸",
         "......"
       ]
     },

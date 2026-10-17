@@ -4,13 +4,17 @@ on:
   push:
     branches:
       - main
+
+permissions:
+  contents: write
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     env:
       envId: ${{ secrets.ENVID }}
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - name: Set up Go 1.16
         uses: actions/setup-go@v1
         with:
@@ -26,14 +30,14 @@ jobs:
           cd html
           yarn
           yarn build
-#          && npm i -g @cloudbase/cli && tcb login --apiKeyId=${{ secrets.apiKeyId }} --apiKey=${{ secrets.apiKey }} && tcb hosting delete -e ${{secrets.envId}} y && cd ../docs && tcb hosting deploy -e ${{secrets.envId}} && tcb hosting list -e ${{secrets.envId}}
+#          && npm i -g @cloudbase/cli && tcb login --apiKeyId=${{ secrets.apiKeyId }} && tcb hosting deploy -e ${{secrets.envId}}
       - name: Commit files
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add .
-          git commit -m "GitHub Action build docs" -a
+          git commit -m "GitHub Action build docs" -a || echo "No changes to commit"
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
-          github_token: ${{ secrets.ACCESS_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
